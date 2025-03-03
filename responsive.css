@@ -1,0 +1,41 @@
+@media screen and (max-width: 2000px){
+    body{
+        width: 1400px;
+    }
+}
+@media screen and (max-width: 1440px){
+    body{
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        width: 400px;
+    }
+    .menu #efecttransition {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 425px){
+    body{
+        width: 200px;
+    }
+    .menu #efecttransition {
+        font-size: 10px;
+    }
+    .menu ul{
+        display: flex;
+        flex-flow: column;
+        margin-right: 20px;
+    }
+}
